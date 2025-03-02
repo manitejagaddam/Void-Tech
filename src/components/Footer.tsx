@@ -17,13 +17,13 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="flex justify-center space-x-6 mb-8">
-            <a href="#" className="w-12 h-12 rounded-full bg-blue-900/50 flex items-center justify-center text-blue-400 hover:text-white hover:bg-blue-600 transition-all duration-300 shadow-[0_0_10px_rgba(59,130,246,0.3)] hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]">
+            <a href="https://www.linkedin.com/in/maniteja-gaddam-354345245/" className="w-12 h-12 rounded-full bg-blue-900/50 flex items-center justify-center text-blue-400 hover:text-white hover:bg-blue-600 transition-all duration-300 shadow-[0_0_10px_rgba(59,130,246,0.3)] hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]">
               <Linkedin size={20} />
             </a>
-            <a href="#" className="w-12 h-12 rounded-full bg-blue-900/50 flex items-center justify-center text-blue-400 hover:text-white hover:bg-blue-600 transition-all duration-300 shadow-[0_0_10px_rgba(59,130,246,0.3)] hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]">
+            <a href="https://x.com/ManitejaG1107" className="w-12 h-12 rounded-full bg-blue-900/50 flex items-center justify-center text-blue-400 hover:text-white hover:bg-blue-600 transition-all duration-300 shadow-[0_0_10px_rgba(59,130,246,0.3)] hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]">
               <Twitter size={20} />
             </a>
-            <a href="#" className="w-12 h-12 rounded-full bg-blue-900/50 flex items-center justify-center text-blue-400 hover:text-white hover:bg-blue-600 transition-all duration-300 shadow-[0_0_10px_rgba(59,130,246,0.3)] hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]">
+            <a href="https://github.com/manitejagaddam" className="w-12 h-12 rounded-full bg-blue-900/50 flex items-center justify-center text-blue-400 hover:text-white hover:bg-blue-600 transition-all duration-300 shadow-[0_0_10px_rgba(59,130,246,0.3)] hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]">
               <Github size={20} />
             </a>
           </div>
@@ -33,15 +33,15 @@ const Footer: React.FC = () => {
               <h3 className="text-lg font-semibold text-white mb-4">Contact Us</h3>
               <p className="text-blue-100/80 mb-2">hello@voidtech.com</p>
               <p className="text-blue-100/80 mb-2">+91 9494785078</p>
-              <p className="text-blue-100/80">123 Innovation Way, Tech City, TC 12345</p>
+              <p className="text-blue-100/80">Kukatpally Hyderabad 500001</p>
             </div>
             
             <div>
               <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="text-blue-100/80 hover:text-blue-400 transition-colors">About Us</a></li>
-                <li><a href="#" className="text-blue-100/80 hover:text-blue-400 transition-colors">Services</a></li>
-                <li><a href="#" className="text-blue-100/80 hover:text-blue-400 transition-colors">Portfolio</a></li>
+                <li><a href="#about" className="text-blue-100/80 hover:text-blue-400 transition-colors">About Us</a></li>
+                <li><a href="#services" className="text-blue-100/80 hover:text-blue-400 transition-colors">Services</a></li>
+                <li><a href="#portfolio" className="text-blue-100/80 hover:text-blue-400 transition-colors">Portfolio</a></li>
                 <li><a href="#" className="text-blue-100/80 hover:text-blue-400 transition-colors">Careers</a></li>
               </ul>
             </div>
