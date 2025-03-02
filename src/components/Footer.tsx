@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
             <div>
               <h3 className="text-lg font-semibold text-white mb-4">Contact Us</h3>
               <p className="text-blue-100/80 mb-2">hello@voidtech.com</p>
-              <p className="text-blue-100/80 mb-2">+1 (555) 123-4567</p>
+              <p className="text-blue-100/80 mb-2">+91 9494785078</p>
               <p className="text-blue-100/80">123 Innovation Way, Tech City, TC 12345</p>
             </div>
             
