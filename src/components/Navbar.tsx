@@ -15,7 +15,8 @@ const Navbar: React.FC<NavbarProps> = ({ scrollPosition }) => {
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
-      scrollPosition > 50 ? 'bg-blue-950/90 backdrop-blur-md py-2 shadow-lg' : 'bg-transparent py-4'
+      scrollPosition > 50 ? 'bg-blue-950/90 backdrop-blur-sm py-2 shadow-lg' : 'bg-transparent py-4'
+      // 'bg-transparent backdrop-blur-sm shadow-sm py-4'
     }`}>
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">

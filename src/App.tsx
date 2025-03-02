@@ -1,17 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  Rocket,
-  Code,
-  Database,
-  Cloud,
-  Shield,
-  Cpu,
-  Linkedin,
-  Twitter,
-  Github,
-  Menu,
-  X,
-} from "lucide-react";
+// import { Rocket, Code, Database, Cloud, Shield, Cpu, Linkedin, Twitter, Github, Menu, X } from "lucide-react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
