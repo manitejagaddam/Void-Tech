@@ -42,22 +42,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, category, descr
 const Portfolio: React.FC = () => {
   const projects = [
     {
-      image: "https://images.unsplash.com/photo-1581092921461-39b9d08a9b21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-      title: "Quantum Analytics Platform",
-      category: "Data Analytics",
-      description: "A comprehensive data analytics platform for enterprise clients, featuring real-time insights and predictive modeling capabilities."
+      image: "src/assets/images/agrimart.png",
+      title: "Agri Market",
+      category: "App Development",
+      description: "AgriMarket connects farmers and buyers through real-time bidding, ensuring fair pricing and secure transactions. With AI-powered crop assessment and price prediction, it empowers farmers with data-driven insights. "
     },
     {
-      image: "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80",
-      title: "NexusConnect IoT Ecosystem",
-      category: "Internet of Things",
-      description: "An integrated IoT solution for smart manufacturing facilities, improving efficiency and reducing downtime through predictive maintenance."
+      image: "src/assets/images/the way.png",
+      title: "The Way we Work",
+      category: "Web & App",
+      description: "At Void Tech, we transform your vision into reality by crafting clear strategies, designing intuitive interfaces, and developing scalable solutions. After thorough testing, we deploy flawless products and drive growth with targeted marketing."
     },
     {
-      image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-      title: "Secure Cloud Infrastructure",
-      category: "Cloud Computing",
-      description: "A highly secure and scalable cloud infrastructure solution for financial institutions with strict compliance requirements."
+      image: "src/assets/images/vrv security.png",
+      title: "VRV Security",
+      category: "UI/UX",
+      description: "At Void Tech, we create stunning designs, build responsive websites, and craft unique branding logos to make your brand stand out. 🚀 "
     }
   ];
 
