@@ -22,7 +22,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrollPosition }) => {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <Logo />
-            <span className="ml-2 text-xl font-bold tracking-wider">voidTech</span>
+            <span className="ml-2 text-xl md:text-xl font-bold font-['Orbitron',sans-serif] tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500 animate-pulse">voidTech</span>
           </div>
           
           {/* Desktop Navigation */}
