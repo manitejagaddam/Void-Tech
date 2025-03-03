@@ -66,6 +66,13 @@ const Testimonials: React.FC = () => {
       position: "COO",
       company: "RetailNext",
       quote: "voidTech's data analytics platform has provided us with insights we never thought possible. We can now make data-driven decisions with confidence."
+    },
+    {
+      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80",
+      name: "David Wilson",
+      position: "COO",
+      company: "RetailNext",
+      quote: "voidTech's data analytics platform has provided us with insights we never thought possible. We can now make data-driven decisions with confidence."
     }
   ];
 
