@@ -50,7 +50,13 @@ const Services: React.FC = () => {
       icon: <Cpu size={28} className="transition-all duration-300 group-hover:animate-pulse" />,
       title: "IoT Solutions",
       description: "Connect and optimize your physical assets with cutting-edge Internet of Things technology."
+    },
+    {
+      icon: <Cpu size={28} className="transition-all duration-300 group-hover:animate-pulse" />,
+      title: "IoT Solutions",
+      description: "Connect and optimize your physical assets with cutting-edge Internet of Things technology."
     }
+
   ];
 
   return (
