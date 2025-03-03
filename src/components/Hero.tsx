@@ -61,10 +61,15 @@ const Hero: React.FC = () => {
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
             <button className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300 shadow-[0_0_15px_rgba(59,130,246,0.5)] hover:shadow-[0_0_20px_rgba(59,130,246,0.7)]">
-              Explore Our Work
+              <a href="#services">
+                Explore Our Work
+              </a>
+
             </button>
             <button className="bg-transparent hover:bg-blue-900/50 text-white border border-blue-500 px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300">
-              Learn More
+              <a href="#portfolio">
+                Learn More
+              </a>
             </button>
           </div>
         </div>
