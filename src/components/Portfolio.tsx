@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 
+
+import agrimart from "../assets/images/agrimart.png"
+import the_way from "../assets/images/the way.png"
+import vrv from "../assets/images/vrv security.png"
+
 interface ProjectCardProps {
   image: string;
   title: string;
@@ -42,19 +47,19 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, category, descr
 const Portfolio: React.FC = () => {
   const projects = [
     {
-      image: "src/assets/images/agrimart.png",
+      image: agrimart,
       title: "Agri Market",
       category: "App Development",
       description: "AgriMarket connects farmers and buyers through real-time bidding, ensuring fair pricing and secure transactions. With AI-powered crop assessment and price prediction, it empowers farmers with data-driven insights. "
     },
     {
-      image: "src/assets/images/the way.png",
+      image: the_way,
       title: "The Way we Work",
       category: "Web & App",
       description: "At Void Tech, we transform your vision into reality by crafting clear strategies, designing intuitive interfaces, and developing scalable solutions. After thorough testing, we deploy flawless products and drive growth with targeted marketing."
     },
     {
-      image: "src/assets/images/vrv security.png",
+      image: vrv,
       title: "VRV Security",
       category: "UI/UX",
       description: "At Void Tech, we create stunning designs, build responsive websites, and craft unique branding logos to make your brand stand out. 🚀 "
