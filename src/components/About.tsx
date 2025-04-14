@@ -19,7 +19,7 @@ const About: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-blue-100/90 text-lg leading-relaxed">
-                Founded in 2020, voidTech is at the forefront of technological innovation, 
+                Founded in 2024, voidTech is at the forefront of technological innovation, 
                 specializing in cutting-edge solutions that bridge the gap between imagination 
                 and reality. Our team of visionary engineers, designers, and developers work 
                 tirelessly to push the boundaries of what's possible.
@@ -43,20 +43,20 @@ const About: React.FC = () => {
               <div className="relative bg-blue-900/30 backdrop-blur-sm p-8 rounded-2xl border border-blue-500/20 shadow-[0_0_25px_rgba(37,99,235,0.2)]">
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center">
-                    <div className="text-4xl font-bold text-blue-400 mb-2">5+</div>
+                    <div className="text-4xl font-bold text-blue-400 mb-2">3+</div>
                     <div className="text-blue-100/80 text-sm">Years Experience</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-4xl font-bold text-blue-400 mb-2">50+</div>
+                    <div className="text-4xl font-bold text-blue-400 mb-2">8+</div>
                     <div className="text-blue-100/80 text-sm">Team Members</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-4xl font-bold text-blue-400 mb-2">100+</div>
+                    <div className="text-4xl font-bold text-blue-400 mb-2">25+</div>
                     <div className="text-blue-100/80 text-sm">Projects Completed</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-4xl font-bold text-blue-400 mb-2">30+</div>
-                    <div className="text-blue-100/80 text-sm">Global Clients</div>
+                    <div className="text-4xl font-bold text-blue-400 mb-2">5+</div>
+                    <div className="text-blue-100/80 text-sm">Clients</div>
                   </div>
                 </div>
               </div>
